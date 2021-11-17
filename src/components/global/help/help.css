@@ -1,0 +1,49 @@
+.help-container{ 
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px, 20px 35px, rgba(0, 0, 0, 0.982224);
+}
+
+.box{
+    background: #C0343C;
+}
+
+.box img{
+    height: 24px;
+}
+
+.box > .plane-icon{
+    font-size: 22px;
+    color: white;
+}
+
+@media screen and (min-width: 375px) {
+    .help-container{
+        padding:32px 16px;
+    }
+    .box p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (min-width: 768px){ 
+    .help-container{
+        margin-top: 66px;
+        padding: 32px;
+    }
+    .help-container h1{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .help-container{
+        margin-top: 80px;
+        padding: 40px;
+    }
+}
+
+

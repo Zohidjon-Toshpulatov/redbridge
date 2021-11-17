@@ -1,0 +1,32 @@
+.container-fluid{
+    background-color: #333;
+}
+
+.navbar{
+    height: 80px;
+}
+
+.nav-link{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    color: #B3B3B3 !important;
+}
+
+.contact-link{
+    height: 40px;
+    width: 110px;
+    color: #fff;
+    text-align: center;
+    background: #C93F3F;
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+@media screen and (min-width: 768px) {
+    .border-login{
+        height: 30px;
+        border-right: 1px solid #B3B3B3;
+    }
+}

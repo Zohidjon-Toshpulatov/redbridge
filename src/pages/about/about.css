@@ -1,0 +1,134 @@
+.insurance-info .bg-img{
+    background-image: url('../../assets/about-page/happy-couple-sm.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 255px;
+}
+
+.ceo-container{
+    background: #c0343c;
+}
+
+
+.mission-container .card{
+        box-shadow: none;
+}
+
+.mission-container .bg-img{
+    background-image: url('../../assets/about-page/mission-bg-sm.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 255px;
+}
+
+.relationship-container .bg-img{
+    background-image: url('../../assets/about-page/relationship-bg-sm.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 255px;
+}
+
+.relationship-container .box{
+    background: white;
+    padding: 32px 16px;
+}
+
+.sertificate-container{
+    background-color: #c0343c;
+}
+
+.sertificate-container h1, .sertificate-container h4, .sertificate-container p{
+    color: #fff !important;
+}
+
+.sertificate-container button.btn{
+    margin-top: 50px;
+    color: #c0343c;
+    background-color: #fff;
+}
+
+@media screen and (min-width:768px) {
+    .insurance-info .bg-img{
+        background-image: url('../../assets/about-page/happy-couple-md.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 439px;
+    }
+
+    .mission-container .bg-img{
+        background-image: url('../../assets/about-page/relationship-bg-md.png');
+        height: 490px;
+    }
+
+    .relationship-container .bg-img{
+        background-image: url('../../assets/about-page/mission-bg-md.png');
+        height: 490px;
+    }
+
+    .relationship-container .box{
+        background: white;
+        padding: 40px 32px;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    .insurance-info .bg-img{
+        height: auto;
+    }
+
+    .mission-container{
+        position: relative;
+    }
+
+    .mission-container > .container{
+        position: absolute;
+        top: 80px;
+    }
+
+    .mission-container .card{
+        padding: 80px 96px;
+    }
+
+    .mission-container .bg-img{
+        background-image: url('../../assets/about-page/mission-bg-lg.png');
+        height: 539px;
+    }
+
+    .relationship-container .bg-img{
+        background-image: url('../../assets/about-page/relationship-bg-lg.png');
+        /* height: auto; */
+    }
+
+    .relationship-container .box{
+        background: white;
+        padding: 80px 96px;
+    }
+
+
+    .sertificate-container-info{
+        position: relative;
+    }
+
+    .sertificate-container-info .row{
+        position: absolute;
+        top: 80px;
+    }
+
+   
+
+    .sertificate-container .bg-img{
+        background-image: url('../../assets/about-page/sertificate-lg.png');
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 530px;
+    }
+
+    .news-container .bg-img{
+        background-image: url('../../assets/about-page/new-bg-lg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 609px;
+    }
+}

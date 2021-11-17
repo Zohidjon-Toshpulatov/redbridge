@@ -1,0 +1,47 @@
+.header-info-container{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.0982224);
+}
+
+.header-info-container h1, .header-info-container h6{
+    color: #333333;
+}
+
+.header-info-container p{
+    color: #808080;
+    font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+}
+
+.learn-more{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E71A3F;
+}
+
+@media screen and (min-width: 0px) {
+    .header-info-container{
+        padding: 32px 16px 16px 16px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .header-info-container{
+        padding: 40px;
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 769px) {
+    .header-info-container{
+        margin-top: 80px;
+    }
+
+    .header-info-container h1{
+        font-size: 36px;
+        line-height: 40px;
+        color: #333333;
+    }
+}

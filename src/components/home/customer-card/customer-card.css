@@ -1,0 +1,27 @@
+.card{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border: none !important;
+    padding: 32px 24px;
+}
+
+.card p{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #808080;
+}
+
+.card h3{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333;
+}
+
+.card h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
